@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Happy Birthday, Shari!</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- First display -->
+    <div id="firstDisplay" class="container">
+        <div class="ff7">
+            <h1>Kenji</h1>
+            <p>&ldquo;
+
+                Heyyy, Shari. It's your special day! I just want to say that I am so happy we met. Now we're friends, and I'm much happier. I want to know you more, and I want you to know more about me. I know that takes time, but we'll take our time because we're still young, wild, and free~ HAHAHAHA.
+                
+                I'm not very good with words, so I'll keep this short. You are very important to me, Shari. Because of you, I realized that I'm full of flaws—so much so that I think I'm an effing loser LOL—but still, you remained my friend, and I'm very thankful for that. I want to become a kinder and better person for you, Shari! And I hope you will support me through my journey. HAHAHA, ka hilas lol.
+                
+                Please don't change, and sana magbago ka na HAHAHAHA. Love lots! <333
+                
+              
+                
+                 &rdquo;</p>
+        </div>
+        <div class="interaction-text"></div>
+        <div class="shadow"></div>
+        <!-- Button at the bottom of the first display -->
+        <button class="bottom-button" id="turnOnLightsButton">Turn on the lights</button>
+    </div>
+<!-- Animation container (initially hidden) -->
+<div id="secondDisplay" class="animation-container" style="display: none;">
+    <canvas id="balloonCanvas"></canvas>
+    <img id="happyBirthdayImage" src="happy_birthday.png" alt="Happy Birthday" />
+    <button class="cake-button" id="cakeButton">Cake</button>
+</div>
+
+<!-- Third display (initially hidden) -->
+<div id="thirdDisplay" class="container" style="display: none;">
+    <!-- Placeholder for the birthday cake image -->
+    <img src="birthday_cake.png" alt="Birthday Cake" style="width: 500px; height: 500px; object-fit: contain;">
+    <!-- Audio element for background music -->
+    <audio id="birthdayAudio" src="happy_birthday.mp3" preload="auto" controls></audio>
+
+    <!-- Chat box styled similarly to the first display -->
+    <div class="ff7 chatbox">
+        <h1>Kenji</h1>
+        <p>&ldquo;Heyyy. Shari. It's your special day! Turn on the lights for a surprise.&rdquo;</p>
+    </div>
+</div>
+
+</body>
+</html>
